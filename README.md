@@ -21,7 +21,7 @@ The current version of HRMS-HD includes the following user management functional
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/hrms-hd.git
+   git clone https://github.com/KrishnaGupta4135/hrms-hd.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -38,13 +38,13 @@ The current version of HRMS-HD includes the following user management functional
 
 ## API Endpoints
 ### User Management
-- **POST** `/api/login` - Authenticate user
-- **POST** `/api/logout` - Log out user
-- **POST** `/api/create_user` - Register a new user
-- **GET** `/api/get_info/{user_id}` - Retrieve user details
-- **PUT** `/api/change_password` - Change user password
-- **POST** `/api/forgot_password` - Initiate password reset process
-- **POST** `/api/reset_password` - Reset password with verification
+- **POST** `/api/users/login` - Authenticate user
+- **POST** `/api/users/logout` - Log out user
+- **POST** `/api/users/create_user` - Register a new user
+- **GET** `/api/users/get_info/{user_id}` - Retrieve user details
+- **PUT** `/api/users/change_password` - Change user password
+- **POST** `/api/users/forgot_password` - Initiate password reset process
+- **POST** `/api/users/reset_password` - Reset password with verification
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -53,4 +53,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
 
 ## Contact
-For any issues or feature requests, please open an issue on [GitHub](https://github.com/your-username/hrms-hd/issues).
+For any issues or feature requests, please open an issue on [GitHub](https://github.com/KrishnaGupta4135/hrms-hd/issues).
