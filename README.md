@@ -21,7 +21,7 @@ The current version of HRMS-HD includes the following user management functional
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone [https://github.com/KrishnaGupta4135/hrms-hd.git](https://github.com/KrishnaGupta4135/hrms-hd/tree/feature/user_management)
+   git clone https://github.com/KrishnaGupta4135/hrms-hd/tree/feature/user_management
    ```
 2. Navigate to the project directory:
    ```sh
